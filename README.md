@@ -7,6 +7,7 @@
 ## Built With
 
 - React Library
+- React icons
 - Redux
 - Ducks Pattern and File Structure
 - Gitflow
