@@ -1,13 +1,19 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './components/HomePage';
+import Header from './components/Header';
 import './App.css';
-import Nav from './components/Nav';
+import DetailsPage from './components/DetailsPage';
 
-function App() {
-  return (
-    <div className="App">
-      <Nav />
-      <h1>Countries List App</h1>
-    </div>
-  );
-}
+const App = () => (
+  <Router>
+    <Header />
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/details/:id" element={<DetailsPage />} />
+    </Routes>
+  </Router>
+
+);
 
 export default App;
