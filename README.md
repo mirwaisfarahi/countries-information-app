@@ -16,7 +16,7 @@
 - Git & Github
 
 ## Live Demo
-[Application](https://legendary-pie-bc7c45.netlify.app/)
+[Application](https://worldcountriesinformation.netlify.app/)
 
 ## Project Documentation
 [Project Video Description](https://www.loom.com/share/7d360a2872884e95a905fc69192e1289)
