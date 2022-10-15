@@ -18,6 +18,9 @@
 ## Live Demo
 [Application](https://legendary-pie-bc7c45.netlify.app/)
 
+## Project Documentation
+[Project Video Description](https://www.loom.com/share/7d360a2872884e95a905fc69192e1289)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
