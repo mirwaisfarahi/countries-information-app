@@ -13,17 +13,21 @@ body {
 }
 
 .stats-search {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: bold;
   margin-left: 3rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
   background-color: #da467d;
   color: white;
 }
 
 .stats-select {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: bold;
   margin-left: 0.1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
   background-color: #da467d;
   color: white;
 }
