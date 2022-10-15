@@ -1,11 +1,34 @@
-@media only screen and (max-width: 500px) {
-  body {
-    margin: 0;
-    overflow-x: hidden;
-    font-family: 'Gill Sans', sans-serif;
-    color: white;
-  }
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Gill Sans', sans-serif;
+  color: white;
+}
 
+.stats-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 2.5rem;
+  width: 80%;
+}
+
+.stats-search {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 3rem;
+  background-color: #da467d;
+  color: white;
+}
+
+.stats-select {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 0.1rem;
+  background-color: #da467d;
+  color: white;
+}
+
+@media only screen and (max-width: 500px) {
   a {
     color: white;
     text-decoration: none;
@@ -84,13 +107,6 @@
   .population-stats {
     background-color: #df4682;
     margin-top: -1.22rem;
-  }
-
-  .stats-title {
-    font-size: 1.3rem;
-    font-weight: bold;
-    margin-left: 2.5rem;
-    font-family: 'Gill Sans', sans-serif;
   }
 
   .country-container {
@@ -277,13 +293,6 @@
     margin-top: -1.22rem;
   }
 
-  .stats-title {
-    font-size: 1.3rem;
-    font-weight: bold;
-    margin-left: 2.5rem;
-    font-family: 'Gill Sans', sans-serif;
-  }
-
   .country-container {
     width: 100%;
     margin-top: -1.3rem;
@@ -293,7 +302,6 @@
   }
 
   .country-card {
-    width: 45%;
     height: 15.5rem;
     display: flex;
     flex-direction: row;
@@ -467,13 +475,6 @@
   .population-stats {
     background-color: #df4682;
     margin-top: -1.22rem;
-  }
-
-  .stats-title {
-    font-size: 1.3rem;
-    font-weight: bold;
-    margin-left: 2.5rem;
-    font-family: 'Gill Sans', sans-serif;
   }
 
   .country-container {
