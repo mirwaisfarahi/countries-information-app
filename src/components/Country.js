@@ -1,25 +1,14 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { BsArrowRightCircle } from 'react-icons/bs';
-import { useSelector, useDispatch } from 'react-redux';
-import { fetchCountries } from '../redux/country/country';
+import PropTypes from 'prop-types';
 import '../App.css';
 import '../index.css';
 
-const Country = () => {
-  const { countriesList } = useSelector((state) => state.countries);
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    if (!countriesList.length) {
-      dispatch(fetchCountries());
-    }
-  }, []);
-
+const Country = (props) => {
+  const { countries } = props;
   return (
     <div className="country-container">
-      {countriesList.map((country) => (
+      {countries.map((country) => (
         <div className="country-card" key={country.id}>
           <div className="flag-container">
             <img src={country.flags.svg} alt="Flag" className="flag-img" />
@@ -42,6 +31,10 @@ const Country = () => {
       ))}
     </div>
   );
+};
+
+Country.propTypes = {
+  countries: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.string)).isRequired,
 };
 
 export default Country;

@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
-import countriesReducer from './country/country';
-import countryDetailsReducer from './countryDetails/countryDetails';
-import countrySpotlightReducer from './countrySpotlight/countrySpotlight';
+import countriesReducer from '../country/country';
+import countryDetailsReducer from '../countryDetails/countryDetails';
+import countrySpotlightReducer from '../countrySpotlight/countrySpotlight';
 
 const store = configureStore({
   reducer: {

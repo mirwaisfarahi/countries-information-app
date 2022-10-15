@@ -2,7 +2,7 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
 // Actions
-const COUNTRY_DETAILS = 'countries-information-app/country/country/COUNTRY_DETAILS';
+const COUNTRY_DETAILS = 'countriesData/country/country/COUNTRY_DETAILS';
 
 // Countries Rest Api
 const dataApi = 'https://restcountries.com/v3.1/name';

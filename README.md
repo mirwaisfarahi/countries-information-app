@@ -16,6 +16,10 @@
 - Git & Github
 
 ## Live Demo
+[Application](https://worldcountriesinformation.netlify.app/)
+
+## Project Documentation
+[Project Video Description](https://www.loom.com/share/33936647f40a447bb7947534d61d7e25)
 
 ## Getting Started
 
