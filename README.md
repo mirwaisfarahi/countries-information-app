@@ -16,6 +16,7 @@
 - Git & Github
 
 ## Live Demo
+[Application](https://legendary-pie-bc7c45.netlify.app/)
 
 ## Getting Started
 
