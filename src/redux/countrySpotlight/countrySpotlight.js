@@ -5,7 +5,7 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 const COUNTRY_SPOTLIGHT = 'countriesData/country/country/COUNTRY_SPOTLIGHT';
 
 // Countries Rest Api
-const spotlightApi = 'https://restcountries.com/v3.1/name/kenya';
+const spotlightApi = 'https://restcountries.com/v3.1/name/Afghanistan';
 
 // Initial state
 const initialState = {
@@ -33,6 +33,7 @@ export const fetchCountrySpotlight = createAsyncThunk(
   },
 );
 
+// Reducer
 const countrySpotlightReducer = (state = initialState, action) => {
   switch (action.type) {
     case COUNTRY_SPOTLIGHT:

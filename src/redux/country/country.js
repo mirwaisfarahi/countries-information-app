@@ -1,7 +1,7 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
-// Actions
-const FETCH_COUNTRIES = 'countriesData/country/country/FETCH_COUNTRIES';
+// Action type
+const FETCH_COUNTRIES = 'countries-information-app/country/country/FETCH_COUNTRIES';
 
 // Countries Rest Api
 const api = 'https://restcountries.com/v3.1/all';
@@ -33,6 +33,7 @@ export const fetchCountries = createAsyncThunk(
 
 );
 
+// Country Reducer
 const countriesReducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_COUNTRIES:
