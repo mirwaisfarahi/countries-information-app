@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check if Item component has changed 1`] = `
+Array [
+  <div
+    className="country-details-container"
+  />,
+  ",",
+]
+`;
